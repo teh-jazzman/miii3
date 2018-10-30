@@ -2,12 +2,12 @@
   "uuid":"5e3ea2fc-8ca0-4134-940e-497d43486325",
   "title":"Miii Adventures 3",
   "recentMapName":"",
-  "lastCreatedMapId":2,
+  "lastCreatedMapId":4,
   "startup":{
     "startingLoc":{
-      "map":"Map000001.rpgmap",
-      "x":28.5,
-      "y":23.5
+      "map":"Map000004.rpgmap",
+      "x":23.5,
+      "y":12.5
     },
     "startingParty":[
       0
@@ -24,8 +24,8 @@
       "volume":1.0,
       "pitch":1.0
     },
-    "screenW":1920,
-    "screenH":1080,
+    "screenW":640,
+    "screenH":480,
     "fullscreen":false,
     "windowIcon":"sys/icon.png",
     "windowskin":"sys/LastPhantasmScanlines.png",

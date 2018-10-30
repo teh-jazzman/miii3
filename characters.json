@@ -59,23 +59,23 @@
     ]
   },
   {
-    "name":"Camilla",
-    "subtitle":"Healer",
-    "description":"A trained healer in touch with the spiritual.",
+    "name":"Lala",
+    "subtitle":"Unruhestifterin",
+    "description":"Keiner weiß so recht, wer sie ist.",
     "sprite":{
       "name":"sys/vx_chara01_a.png",
-      "spriteIndex":6,
+      "spriteIndex":5,
       "dir":0,
       "step":1
     },
     "face":{
       "faceset":"sys/mackie/face_m01a_1.png",
-      "faceX":2,
+      "faceX":1,
       "faceY":1
     },
     "initLevel":1,
     "maxLevel":50,
-    "charClass":1,
+    "charClass":3,
     "progressions":{
       "exp":{
         "base":300.0,

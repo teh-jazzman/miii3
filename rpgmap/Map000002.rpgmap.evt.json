@@ -1166,9 +1166,9 @@
             {
               "jsonClass":"Teleport",
               "loc":{
-                "map":"Map000001.rpgmap",
-                "x":27.5,
-                "y":21.5
+                "map":"Map000004.rpgmap",
+                "x":21.5,
+                "y":12.5
               },
               "transitionId":1
             }
@@ -1210,40 +1210,63 @@
           "runOnceThenIncrementState":false,
           "cmds":[
             {
-              "jsonClass":"ShowText",
-              "lines":[
-                "Diese Säulen sehen nicht aus als hätten Piraten sie gebaut. Die sind ja voller magischer Symbole."
-              ],
-              "useCharacterFace":true,
-              "characterId":0
-            },
-            {
-              "jsonClass":"ShowText",
-              "lines":[
-                "OMG!"
-              ],
-              "useCharacterFace":true,
-              "characterId":0
-            },
-            {
-              "jsonClass":"ShowText",
-              "lines":[
-                "Was, wenn es Piratenzauberer waren?!?"
-              ],
-              "useCharacterFace":true,
-              "characterId":0
-            },
-            {
-              "jsonClass":"Sleep",
-              "duration":1.0
-            },
-            {
-              "jsonClass":"ShowText",
-              "lines":[
-                "Ich will Piratenzauberer werden!"
-              ],
-              "useCharacterFace":true,
-              "characterId":0
+              "jsonClass":"LockPlayerMovement",
+              "body":[
+                {
+                  "jsonClass":"ShowText",
+                  "lines":[
+                    "Diese Säulen sehen nicht aus als hätten Piraten sie gebaut. Die sind ja voller magischer Symbole."
+                  ],
+                  "useCharacterFace":true,
+                  "characterId":0
+                },
+                {
+                  "jsonClass":"Sleep",
+                  "duration":0.5
+                },
+                {
+                  "jsonClass":"PlayAnimation",
+                  "animationId":73,
+                  "originId":2,
+                  "entitySpec":{
+                    "whichEntityId":0,
+                    "mapName":"Map000002.rpgmap",
+                    "eventId":1
+                  },
+                  "xOffset":0,
+                  "yOffset":0,
+                  "speedScale":1.0,
+                  "sizeScale":1.0
+                },
+                {
+                  "jsonClass":"Sleep",
+                  "duration":1.5
+                },
+                {
+                  "jsonClass":"ShowText",
+                  "lines":[
+                    "Was, wenn es Piratenzauberer waren?!?"
+                  ],
+                  "useCharacterFace":true,
+                  "characterId":0
+                },
+                {
+                  "jsonClass":"ShowText",
+                  "lines":[
+                    "..."
+                  ],
+                  "useCharacterFace":true,
+                  "characterId":0
+                },
+                {
+                  "jsonClass":"ShowText",
+                  "lines":[
+                    "Ich will Piratenzauberer werden!"
+                  ],
+                  "useCharacterFace":true,
+                  "characterId":0
+                }
+              ]
             },
             {
               "jsonClass":"SetEventState",

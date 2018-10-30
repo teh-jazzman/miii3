@@ -1,6 +1,6 @@
 {
   "parent":"",
-  "title":"Insel",
+  "title":"Venedig",
   "xSize":60,
   "ySize":33,
   "tilesets":[
@@ -147,9 +147,9 @@
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":32.078125,
-  "editorCenterY":17.046875,
-  "lastGeneratedEventId":31,
+  "editorCenterX":14.484375,
+  "editorCenterY":15.390625,
+  "lastGeneratedEventId":2,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[

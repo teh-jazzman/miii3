@@ -3,8 +3,8 @@
     {
       "id":1,
       "name":"Event00001",
-      "x":6.5,
-      "y":9.5,
+      "x":11.5,
+      "y":7.5,
       "states":[
         {
           "conditions":[
@@ -59,15 +59,7 @@
                 {
                   "jsonClass":"ShowText",
                   "lines":[
-                    "Ah!"
-                  ],
-                  "useCharacterFace":true,
-                  "characterId":0
-                },
-                {
-                  "jsonClass":"ShowText",
-                  "lines":[
-                    "Venedig!"
+                    "Ah, Venedig!"
                   ],
                   "useCharacterFace":true,
                   "characterId":0

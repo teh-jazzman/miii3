@@ -167,39 +167,6 @@
       ]
     },
     {
-      "id":42,
-      "name":"Event00040",
-      "x":31.5,
-      "y":15.5,
-      "states":[
-        {
-          "conditions":[
-            
-          ],
-          "height":0,
-          "affixDirection":false,
-          "trigger":2,
-          "animationType":0,
-          "runOnceThenIncrementState":false,
-          "cmds":[
-            {
-              "jsonClass":"SetEventState",
-              "entitySpec":{
-                "whichEntityId":2,
-                "mapName":"Map000002.rpgmap",
-                "eventId":39
-              },
-              "state":1
-            }
-          ]
-        }
-      ],
-      "eventClassId":-1,
-      "params":[
-        
-      ]
-    },
-    {
       "id":24,
       "name":"Event00024",
       "x":32.5,
@@ -465,8 +432,8 @@
               "jsonClass":"Teleport",
               "loc":{
                 "map":"Map000001.rpgmap",
-                "x":41.5,
-                "y":12.5
+                "x":37.5,
+                "y":13.5
               },
               "transitionId":1
             }
@@ -632,39 +599,6 @@
                 "whichEntityId":2,
                 "mapName":"Map000002.rpgmap",
                 "eventId":11
-              },
-              "state":1
-            }
-          ]
-        }
-      ],
-      "eventClassId":-1,
-      "params":[
-        
-      ]
-    },
-    {
-      "id":41,
-      "name":"Event00040",
-      "x":30.5,
-      "y":15.5,
-      "states":[
-        {
-          "conditions":[
-            
-          ],
-          "height":0,
-          "affixDirection":false,
-          "trigger":2,
-          "animationType":0,
-          "runOnceThenIncrementState":false,
-          "cmds":[
-            {
-              "jsonClass":"SetEventState",
-              "entitySpec":{
-                "whichEntityId":2,
-                "mapName":"Map000002.rpgmap",
-                "eventId":39
               },
               "state":1
             }
@@ -1496,39 +1430,6 @@
       "name":"Event00040",
       "x":29.5,
       "y":16.5,
-      "states":[
-        {
-          "conditions":[
-            
-          ],
-          "height":0,
-          "affixDirection":false,
-          "trigger":2,
-          "animationType":0,
-          "runOnceThenIncrementState":false,
-          "cmds":[
-            {
-              "jsonClass":"SetEventState",
-              "entitySpec":{
-                "whichEntityId":2,
-                "mapName":"Map000002.rpgmap",
-                "eventId":39
-              },
-              "state":1
-            }
-          ]
-        }
-      ],
-      "eventClassId":-1,
-      "params":[
-        
-      ]
-    },
-    {
-      "id":40,
-      "name":"Event00040",
-      "x":29.5,
-      "y":15.5,
       "states":[
         {
           "conditions":[

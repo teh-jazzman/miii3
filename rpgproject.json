@@ -6,8 +6,8 @@
   "startup":{
     "startingLoc":{
       "map":"Map000003.rpgmap",
-      "x":11.5,
-      "y":8.5
+      "x":29.5,
+      "y":15.5
     },
     "startingParty":[
       0

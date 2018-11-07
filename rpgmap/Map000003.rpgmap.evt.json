@@ -122,6 +122,79 @@
       "params":[
         
       ]
+    },
+    {
+      "id":3,
+      "name":"Event00003",
+      "x":26.5,
+      "y":13.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/!object.png",
+            "spriteIndex":2,
+            "dir":0,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":true,
+          "trigger":0,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":4,
+      "name":"Event00004",
+      "x":32.5,
+      "y":13.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/!object.png",
+            "spriteIndex":2,
+            "dir":0,
+            "step":0
+          },
+          "height":1,
+          "affixDirection":true,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"MoveEvent",
+              "entitySpec":{
+                "whichEntityId":0,
+                "mapName":"Map000003.rpgmap",
+                "eventId":1
+              },
+              "dx":0.0,
+              "dy":0.001,
+              "affixDirection":false,
+              "async":false
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
     }
   ]
 }
